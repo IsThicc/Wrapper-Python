@@ -1,5 +1,5 @@
 #
-#                    IsThicc API Python Wrapper __init__.py | 2020 (c) IsThicc
+#                 IsThicc API Python Wrapper __init__.py | 2020-2021 (c) IsThicc
 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 #

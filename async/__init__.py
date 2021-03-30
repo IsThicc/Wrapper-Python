@@ -1,24 +1,30 @@
 #
-#                    IsThicc API Python Wrapper __init__.py | 2020 (c) IsThicc
+#                IsThicc API Python Wrapper __init__.py | 2020-2021 (c) IsThicc
 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 #
 #
 __version__ = "0.1.0"
+__author__  = "IsThicc Software"
+__name__    = "IsThicc"
 #
 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 #
 #
-from config import url
-from asyncio import get_event_loop
 import updates
+from config  import url
+from asyncio import get_event_loop
 #
 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 #
 #
 async def info():
+    """
+
+    :return:
+    """
 
     print(
         '\n'
@@ -29,7 +35,7 @@ async def info():
         f'You are behind on {await updates.behind()} updates!'
     )
 
-    if url != "https://api.isthicc.xyz/v1/":
+    if url != "https://api.isthicc.dev/v1/":
 
         print(
             '\n \n'
@@ -40,7 +46,7 @@ async def info():
         '\n'
         'Check more project from the IsThicc Developers at:'
         '\n'
-        'https://isthicc.xyz/'
+        'https://isthicc.dev/'
     )
 
 #
